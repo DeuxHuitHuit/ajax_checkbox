@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="ajax_checkbox" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Ajax Checkbox</name>
+	<description>
+		Makes the checkbox field editable inline in the table publish view.
+		Value is saved right away.
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/ajax_checkbox</repo>
+	<url type="discuss">https://github.com/DeuxHuitHuit/ajax_checkbox/issues</url>
+	<types>
+		<type>Field</type>
+		<type>Checkbox</type>
+		<type>Ajax</type>
+	</types>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>http://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>
+		<release version="1.0" date="2013-11-15" min="2.3">
+			- First release
+		</release>
+	</releases>
+</extension>
