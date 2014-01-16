@@ -10,6 +10,8 @@
 	
 	var CSS_CLASS = 'ajax-checkbox';
 	
+	Symphony.Language.add({'No':false, 'Yes':false})
+	
 	var click = function (e) {
 		var t = $(this);
 		t.closest('tr').removeClass('selected');
@@ -47,6 +49,13 @@
 		}).always(function (e) {
 			input.show();
 			loader.hide();
+		}).success(function (e) {
+			$.event.trigger('ajax-checkbox-updated', {
+				t: t,
+				td: td,
+				tr: tr,
+				isChecked: isChecked
+			});
 		});
 		
 		return false;
@@ -56,7 +65,7 @@
 		var loader = $('<div />').addClass(CSS_CLASS);
 		var input = $('<input />').attr('type', 'checkbox').addClass(CSS_CLASS);
 		
-		if (currentValue === 'Yes') {
+		if (currentValue === Symphony.Language.get('Yes')) {
 			input.attr('checked', 'checked');
 		}
 		
