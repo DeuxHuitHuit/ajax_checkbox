@@ -28,5 +28,5 @@ Come say hi! -> <http://www.deuxhuithuit.com/>
 
 ### History ###
 
-- 1.0 - 2013-11-15    
+- 1.0 - 2014-01-16    
   First release  
