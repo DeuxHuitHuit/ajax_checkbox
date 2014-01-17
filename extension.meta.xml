@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="ajax_checkbox" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="ajax_checkbox" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Ajax Checkbox</name>
 	<description>
 		Makes the checkbox field editable inline in the table publish view.
