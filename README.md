@@ -5,6 +5,10 @@ Version: 1.0
 Makes the checkbox field editable inline in the table publish view.
 Value is saved right away.
 
+### KNOWN LIMITATIONS
+
+Due to the way Symphony's selection works in the table mode, ajax checkboxes can't be in the last column.
+
 ### REQUIREMENTS ###
 
 - Symphony CMS version 2.3.4 and up (as of the day of the last release of this extension)
