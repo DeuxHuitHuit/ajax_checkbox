@@ -7,7 +7,8 @@ Value is saved right away.
 
 ### KNOWN LIMITATIONS
 
-Due to the way Symphony's selection works in the table mode, ajax checkboxes can't be in the last column.
+- Due to the way Symphony's selection works in the table mode, ajax checkboxes can't be in the last column.
+- It is now compatible with the `unpublishedfilter` extension.
 
 ### REQUIREMENTS ###
 
