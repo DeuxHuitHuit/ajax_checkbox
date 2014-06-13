@@ -1,6 +1,6 @@
 # Ajax Checkbox #
 
-Version: 1.0
+Version: 1.1
 
 Makes the checkbox field editable inline in the table publish view.
 Value is saved right away.
@@ -12,8 +12,7 @@ Value is saved right away.
 
 ### REQUIREMENTS ###
 
-- Symphony CMS version 2.3.4 and up (as of the day of the last release of this extension)
-- You also need this pull request: <https://github.com/symphonycms/symphony-2/pull/1870>
+- Symphony CMS version 2.4 and up (as of the day of the last release of this extension)
 
 ### INSTALLATION ###
 
@@ -30,8 +29,3 @@ Come say hi! -> <http://www.deuxhuithuit.com/>
 ### HOW TO USE ###
 
 - Just install and enjoy
-
-### History ###
-
-- 1.0 - 2014-01-16    
-  First release  
