@@ -31,7 +31,8 @@
 		
 		var postData = {
 			'with-selected': 'toggle-'+ field_id +'-' + (isChecked ? 'yes' : 'no'),
-			'action[apply]': 1
+			'action[apply]': 1,
+			xsrf: Symphony.Utilities ? Symphony.Utilities.getXSRF() : ''
 		};
 		postData['items['+ id +']']  = 'on';
 		
