@@ -22,6 +22,9 @@
 		<!-- None -->
 	</dependencies>
 	<releases>
+		<release version="1.2" date="2014-06-20" min="2.3.4" max="2.4.x">
+			- Better alerts
+		</release>
 		<release version="1.1" date="2014-06-13" min="2.3.4" max="2.4.x">
 			- Added support for xsrf token.
 		</release>
