@@ -10,13 +10,19 @@
 	
 	var CSS_CLASS = 'ajax-checkbox';
 	
-	Symphony.Language.add({'No':false, 'Yes':false})
+	Symphony.Language.add({'No':false, 'Yes':false});
 	
 	var click = function (e) {
 		var t = $(this);
 		t.closest('tr').removeClass('selected');
 		
 		e.stopPropagation();
+	};
+	
+	var showAlert = function (msg, success) {
+		Symphony.Elements.header.find('div.notifier').trigger('attach.notify', 
+			[Symphony.Language.get(msg), success ? 'success' : 'error']
+		);
 	};
 	
 	var checkChanged = function (e) {
@@ -46,11 +52,12 @@
 			dataType: 'html',
 			data: postData
 		}).error(function (e) {
-			alert('Error. Try again');
+			showAlert('Error. Try again.');
 		}).always(function (e) {
 			input.show();
 			loader.hide();
 		}).success(function (e) {
+			showAlert('Entry saved.', true);
 			$.event.trigger('ajax-checkbox-updated', {
 				t: t,
 				td: td,
