@@ -84,9 +84,18 @@
 	
 	var initOne = function (index, elem) {
 		var t = $(this);
-		var currentValue = t.text().replace(/\s/,'');
+		var currentValue = '';
+		
+		t.contents().each(function () {
+			var data = this.data ? this.data.replace(/\s/gim,'') : '';
+			if (data.length) { //nodeType text
+				currentValue = data;
+				this.remove();
+			}
+		});
+		
 		var ui = createUI(currentValue);
-		t.data('value', currentValue).empty().append(ui);
+		t.data('value', currentValue).append(ui);
 	};
 	
 	var init = function () {
