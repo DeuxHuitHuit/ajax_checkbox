@@ -90,7 +90,7 @@
 			var data = this.data ? this.data.replace(/\s/gim,'') : '';
 			if (data.length) { //nodeType text
 				currentValue = data;
-				this.remove();
+				$(this).remove();
 			}
 		});
 		
