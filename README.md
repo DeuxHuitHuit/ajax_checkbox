@@ -8,6 +8,7 @@ Value is saved right away.
 ### KNOWN LIMITATIONS
 
 - It is not compatible with the `unpublishedfilter` extension.
+- You cannot use a checkbox as the last column
 
 ### REQUIREMENTS ###
 
@@ -23,7 +24,7 @@ See <http://getsymphony.com/learn/tasks/view/install-an-extension/>
 
 *Voila !*
 
-Come say hi! -> <http://www.deuxhuithuit.com/>
+Come say hi! -> <https://deuxhuithuit.com/>
 
 ### HOW TO USE ###
 
