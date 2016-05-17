@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="ajax_checkbox" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="ajax_checkbox" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Ajax Checkbox</name>
 	<description>
 		Makes the checkbox field editable inline in the table publish view.
 		Value is saved right away.
 	</description>
 	<repo type="github">https://github.com/DeuxHuitHuit/ajax_checkbox</repo>
-	<url type="discuss">https://github.com/DeuxHuitHuit/ajax_checkbox/issues</url>
+	<url type="discuss">http://www.getsymphony.com/discuss/thread/111985/</url>
+	<url type="issues">https://github.com/DeuxHuitHuit/ajax_checkbox/issues</url>
 	<types>
 		<type>Field</type>
 		<type>Checkbox</type>
@@ -15,13 +16,16 @@
 	<authors>
 		<author>
 			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
-			<website>http://deuxhuithuit.com/</website>
+			<website>https://deuxhuithuit.com/</website>
 		</author>
 	</authors>
 	<dependencies>
 		<!-- None -->
 	</dependencies>
 	<releases>
+		<release version="1.4.0" date="2016-05-17" min="2.3.4" max="2.6.x">
+			- Added support for multilingual checkbox
+		</release>
 		<release version="1.3.1" date="2015-02-24" min="2.3.4" max="2.6.x">
 			- Fix bug on IE
 			- Mark as Symphony 2.6. compatible

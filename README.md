@@ -1,6 +1,6 @@
 # Ajax Checkbox #
 
-Version: 1.3.x
+Version: 1.4.x
 
 Makes the checkbox field editable inline in the table publish view.
 Value is saved right away.
