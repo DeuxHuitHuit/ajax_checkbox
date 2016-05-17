@@ -99,7 +99,7 @@
 	};
 	
 	var init = function () {
-		$('#contents table td.field-checkbox').each(initOne);
+		$('#contents table td').filter('.field-checkbox, .field-multilingual_checkbox').each(initOne);
 	};
 	
 	$(init);
