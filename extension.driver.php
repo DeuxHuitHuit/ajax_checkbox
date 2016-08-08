@@ -89,7 +89,7 @@
 		 * Delegate fired when the extension is updated (when version changes)
 		 * @param string $previousVersion
 		 */
-		public function update($previousVersion) {
+		public function update($previousVersion = false) {
 			return true;
 		}
 
