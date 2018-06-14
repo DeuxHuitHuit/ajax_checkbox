@@ -99,7 +99,7 @@
 	};
 	
 	var init = function () {
-		$('#contents table td').filter('.field-checkbox, .field-multilingual_checkbox').each(initOne);
+		$('#contents table td').filter('.field-checkbox, .field-multilingual_checkbox, .field-publishbutton').each(initOne);
 	};
 	
 	$(init);

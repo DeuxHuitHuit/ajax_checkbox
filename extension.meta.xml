@@ -23,6 +23,10 @@
 		<!-- None -->
 	</dependencies>
 	<releases>
+		<release version="1.5.0" date="2018-06-14" min="2.4.0" max="2.x.x">
+			- Added support for [Publish Button](https://github.com/pixelninja/publishbutton) extension
+			- Extended compatibility notes in the readme
+		</release>
 		<release version="1.4.1" date="2016-08-08" min="2.3.4" max="2.x.x">
 			- Supported on PHP 7
 			- Fixed database update
