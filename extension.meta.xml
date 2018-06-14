@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension id="ajax_checkbox" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Ajax Checkbox</name>
-	<description>
-		Makes the checkbox field editable inline in the table publish view.
-		Value is saved right away.
-	</description>
+	<description>Makes checkbox fields editable inline in the table publish view. Value is saved right away.</description>
 	<repo type="github">https://github.com/DeuxHuitHuit/ajax_checkbox</repo>
 	<url type="discuss">http://www.getsymphony.com/discuss/thread/111985/</url>
 	<url type="issues">https://github.com/DeuxHuitHuit/ajax_checkbox/issues</url>
